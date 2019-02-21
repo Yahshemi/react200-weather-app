@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const axios = require('axios');
 const app = express();
-// require('dot-env').config()
+require('dot-env').config()
 
 
 app.use(morgan('dev'));
